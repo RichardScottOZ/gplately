@@ -1412,7 +1412,7 @@ def _parse_extent_origin(extent, origin):
 class Raster(object):
     """A class for working with raster data.
 
-    `Raster`'s functionalities inclue sampling data at points using spline
+    `Raster`'s functionalities include sampling data at points using spline
     interpolation, resampling rasters with new X and Y-direction spacings and
     resizing rasters using new X and Y grid pixel resolutions. NaN-type data
     in rasters can be replaced with the values of their nearest valid
